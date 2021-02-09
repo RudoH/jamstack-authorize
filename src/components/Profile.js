@@ -15,7 +15,7 @@ const Profile = ({ showModal}) => {
                     <Link to="/dashboard/secret" activeClassName="active">Secret Stuff</Link>
                     <Link to="/dashboard/base" activeClassName="active">See Your Base</Link>
                 </nav>
-                <span>Logged in as ${name}. <button onClick={showModal}>Log out</button></span>
+                <span>Logged in as {name}. <button onClick={showModal}>Log out</button></span>
             </div>
         )
     )
